@@ -60,6 +60,7 @@ def load_data(city, month, day):
     df['hour'] = df['Start Time'].dt.hour
     #Filter by month
     if month != 'all':
+        #The six months available in the dataset
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         #Create index for months 
         month = months.index(month) + 1
@@ -209,7 +210,7 @@ def main():
         user_stats(df)
         #Added to main function in order for it to be displayed 
         raw_data(df)
-
+        #Asks user if they want to restart the process
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
