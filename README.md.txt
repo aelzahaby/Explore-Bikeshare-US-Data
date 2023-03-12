@@ -4,6 +4,12 @@ This is part of the programming for Data Science with Python nanodegree
 ## Project overview
 This project explores the bikeshare data in three major cities in the US - Chicago, New York City, and Washington. I imported data using Pandas to try to solve some interesting questions using **descriptive statistics**.
 
+## Files used
+The files used in this project were:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
+
 ## Software needed:
 The software needed to complete this project was a text editor and the shoftware I chose was **Visual Studio Code**. However, you can use other text editors such as _Atom_ or _Sublime_. You will also need to install pandas, numpy, and Anaconda.
 
@@ -25,3 +31,4 @@ Some of questions that got answered in the project were:
 * Most popular stations and trips
 * Trip duration (total and average)
 * User information (gender, birth year, user type)
+
