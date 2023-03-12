@@ -60,6 +60,7 @@ def load_data(city, month, day):
     df['hour'] = df['Start Time'].dt.hour
     #Filter by month
     if month != 'all':
+        #The six months available in the dataset
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         #Create index for months 
         month = months.index(month) + 1
